@@ -3,7 +3,7 @@ import React from "react";
 const Info = () => {
   return (
     <div className="flex items-center justify-center p-5 md:p-10 bg-[#EDEDED]">
-      <div className="bg-white p-4 md:p-10 md:max-w-[990px]">
+      <div className="bg-white p-4 md:p-10 md:max-w-[940px]">
         <span className="text-[#007282] font-bold text-lg">The Ombuds Group</span>
         <p className="text-sm text-gray-500 mt-4">
           <b>The Ombuds Group</b> is a nationally recognised, not-for-proﬁt

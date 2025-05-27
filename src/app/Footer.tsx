@@ -31,7 +31,7 @@ const Footer = () => {
         </div>
       </div>
       <div className="bg-black text-white p-10">
-        <div className="flex items-center justify-start max-w-[932px] mx-auto">
+        <div className="flex items-center justify-start md:max-w-[932px] ml-10 md:mx-auto">
           <span>© 2025 The Ombuds Group</span>
         </div>
       </div>

@@ -1,3 +1,5 @@
+"use client"
+import { RedirectionLinks } from "@/lib/constants";
 import Image from "next/image";
 import React from "react";
 
@@ -14,7 +16,7 @@ const Footer = () => {
             Registered in England and Wales: 14275884
           </span>
         </div>
-        <div className="bg-white">
+        <div className="bg-white cursor-pointer" onClick={() => window.open(RedirectionLinks.sundayTimes, "_blank")}>
           <Image src="/sunday-times.png" alt="sunday times" width={300} height={300} />
         </div>
       </div>

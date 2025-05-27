@@ -1,10 +1,11 @@
+import Image from "next/image";
 import React from "react";
 
 const Footer = () => {
   return (
     <>
-      <div className="bg-[#007282] text-white p-10">
-        <div className="flex flex-col gap-4 md:ml-56">
+      <div className="flex flex-col gap-4 md:gap-0 md:flex-row justify-between bg-[#007282] text-white p-10">
+        <div className="flex flex-col gap-4">
           <span className="font-bold text-lg">Registered Address</span>
           <span className="text-sm">Premier House</span>
           <span className="text-sm">First Floor, 1-5 Argyle Way</span>
@@ -13,10 +14,13 @@ const Footer = () => {
             Registered in England and Wales: 14275884
           </span>
         </div>
+        <div className="bg-white">
+          <Image src="/sunday-times.png" alt="sunday times" width={300} height={300} />
+        </div>
       </div>
 
       <div className="bg-black text-white p-10">
-        <span className="md:ml-56">© 2025 The Ombuds Group</span>
+        <span>© 2025 The Ombuds Group</span>
       </div>
     </>
   );

@@ -5,12 +5,12 @@ import Image from "next/image";
 const Header = () => {
   return (
     <div className="flex flex-col items-center justify-center mt-10">
-      <Image src="/ombud.png" alt="ombud" width={410} height={38} />
+      <Image src="/ombuds.svg" alt="ombud" width={410} height={38} />
 
       <div className="flex flex-col md:flex-row gap-10 mt-10">
         <div className="flex gap-4">
           <Image
-            src="/dro.png"
+            src="/dro.svg"
             alt="ombud"
             width={180}
             height={38}
@@ -18,7 +18,7 @@ const Header = () => {
             className="hover:cursor-pointer"
           />
           <Image
-            src="/fhio.png"
+            src="/fhio.svg"
             alt="ombud"
             width={180}
             height={38}
@@ -28,7 +28,7 @@ const Header = () => {
         </div>
         <div className="flex gap-4">
           <Image
-            src="/tro.png"
+            src="/tro.svg"
             alt="ombud"
             width={180}
             height={38}
@@ -36,7 +36,7 @@ const Header = () => {
             className="hover:cursor-pointer"
           />
           <Image
-            src="/ifo.png"
+            src="/ifo.svg"
             alt="ombud"
             width={180}
             height={38}

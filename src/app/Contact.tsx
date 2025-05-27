@@ -1,6 +1,5 @@
 "use client";
 import { RedirectionLinks } from "@/lib/constants";
-import { Linkedin } from "lucide-react";
 import Image from "next/image";
 
 const Contact = () => {
@@ -21,14 +20,19 @@ const Contact = () => {
               className="flex items-center justify-center w-14 h-14 rounded-full bg-[#1A4A61] hover:cursor-pointer"
               onClick={() => window.open(RedirectionLinks.linkedin, "_blank")}
             >
-              <Linkedin color="white" />
+               <Image
+                src="/linkedin.svg"
+                alt="butterfly"
+                width={40}
+                height={40}
+              />
             </div>
             <div
               className="flex items-center justify-center w-14 h-14 rounded-full bg-[#1A4A61] hover:cursor-pointer"
               onClick={() => window.open(RedirectionLinks.bluesky, "_blank")}
             >
               <Image
-                src="/butterfly.png"
+                src="/bluesky.svg"
                 alt="butterfly"
                 width={40}
                 height={40}

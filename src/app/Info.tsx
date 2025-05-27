@@ -1,10 +1,14 @@
+"use client"
+import { RedirectionLinks } from "@/lib/constants";
 import React from "react";
 
 const Info = () => {
   return (
     <div className="flex items-center justify-center p-5 md:p-10 bg-[#EDEDED]">
       <div className="bg-white p-4 md:p-10 md:max-w-[940px]">
-        <span className="text-[#007282] font-bold text-lg">The Ombuds Group</span>
+        <span className="text-[#007282] font-bold text-lg">
+          The Ombuds Group
+        </span>
         <p className="text-sm text-gray-500 mt-4">
           <b>The Ombuds Group</b> is a nationally recognised, not-for-proﬁt
           leader in the UK’s alternative dispute resolution (ADR) sector. We
@@ -21,9 +25,15 @@ const Info = () => {
           empowering the businesses we serve with the knowledge, tools, and
           expertise they need to inspire conﬁdence and drive continuous
           improvement. <br /> <br /> In 2025, The Ombuds Group was proud to be
-          named one of The Sunday Times Best 500 Places to Work—a testament to
-          our commitment to excellence, fairness, and employee wellbeing. <br />{" "}
-          <br />{" "}
+          named one of{" "}
+          <span
+            className="text-[#007282] cursor-pointer"
+            onClick={() => window.open(RedirectionLinks.sundayTimes, "_blank")}
+          >
+            The Sunday Times Best 500 Places to Work
+          </span>
+          —a testament to our commitment to excellence, fairness, and employee
+          wellbeing. <br /> <br />{" "}
           <b>
             If your business is looking to partner with a trusted, expert
             provider of dispute resolution, training, or consultancy services,

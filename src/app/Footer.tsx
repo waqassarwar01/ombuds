@@ -7,7 +7,6 @@ const Footer = () => {
   return (
     <>
       <div className="bg-[#007282] text-white p-10">
-        {/* i want to make the div below to be in center */}
         <div className="flex flex-col items-center gap-4 md:gap-0 md:flex-row justify-between max-w-[932px] mx-auto">
           <div className="flex flex-col gap-4">
             <span className="font-bold text-lg">Registered Address</span>
@@ -31,9 +30,10 @@ const Footer = () => {
           </div>
         </div>
       </div>
-
       <div className="bg-black text-white p-10">
-        <span className="md:ml-64">© 2025 The Ombuds Group</span>
+        <div className="flex items-center justify-start max-w-[932px] mx-auto">
+          <span>© 2025 The Ombuds Group</span>
+        </div>
       </div>
     </>
   );
